@@ -56,20 +56,18 @@ Verifying
 
 Once you have imported Micah's public key into your GnuPG keychain, downloaded the binary and ``.asc`` signature, you can verify the binary for macOS in a terminal like this::
 
-    gpg --verify OnionShare-2.2.pkg.asc OnionShare-2.2.pkg
+    gpg --verify OnionShare-2.6.flatpak.asc OnionShare-2.6.flatpak
 
 Or for Windows, in a command-prompt like this::
 
-    gpg.exe --verify onionshare-2.2-setup.exe.asc onionshare-2.2-setup.exe
+    gpg.exe --verify OnionShare-win64-2.6.msi.asc OnionShare-win64-2.6.msi
 
 The expected output looks like this::
 
-    gpg: Signature made Tue 19 Feb 2019 09:25:28 AM AEDT using RSA key ID CD994F73
-    gpg: Good signature from "Micah Lee <micah@micahflee.com>"
-    gpg:                 aka "Micah Lee <micah@firstlook.org>"
-    gpg:                 aka "Micah Lee <micah@freedom.press>"
-    gpg:                 aka "Micah Lee <micah.lee@firstlook.org>"
-    gpg:                 aka "Micah Lee <micah.lee@theintercept.com>"
+    gpg: Signature made Mo 10 Okt 2022 02:27:16 CEST
+    gpg:                using RSA key 927F419D7EC82C2F149C1BD1403C2657CD994F73
+    gpg: Good signature from "Micah Lee <micah@micahflee.com>" [unknown]
+    gpg:                 aka "Micah Lee <micah.lee@firstlook.media>" [unknown]
     gpg: WARNING: This key is not certified with a trusted signature!
     gpg:          There is no indication that the signature belongs to the owner.
     Primary key fingerprint: 927F 419D 7EC8 2C2F 149C  1BD1 403C 2657 CD99 4F73
