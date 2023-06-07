@@ -111,6 +111,8 @@ The expected output looks like this::
     gpg:          There is no indication that the signature belongs to the owner.
     Primary key fingerprint: 927F 419D 7EC8 2C2F 149C  1BD1 403C 2657 CD99 4F73
 
-If you don't see ``Good signature from``, there might be a problem with the integrity of the file (malicious or otherwise), and you should not install the package. (The ``WARNING:`` shown above, is not a problem with the package, it only means you haven't defined a level of "trust" of Micah's (the core developer) PGP key.)
+If you don't see ``Good signature from``, there might be a problem with the integrity of the file (malicious or otherwise), and you should not install the package.
+
+The ``WARNING:`` shown above, is not a problem with the package, it only means you haven't defined a level of "trust" of Micah's (the core developer) PGP key.
 
 If you want to learn more about verifying PGP signatures, the guides for `Qubes OS <https://www.qubes-os.org/security/verifying-signatures/>`_ and the `Tor Project <https://support.torproject.org/tbb/how-to-verify-signature/>`_ may be useful.
